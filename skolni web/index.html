@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Střední škola Baltaci</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styly.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color:#001f3f;">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <img src="skola logo.png" alt="Baltaci logo" style="height:60px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Domů</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Studium</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Lyceum.html">Lyceum 2.0</a></li>
+            <li><a class="dropdown-item" href="IT.html">Informační technologie</a></li>
+            <li><a class="dropdown-item" href="Kuchar.html">Kuchař – číšník</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="o-nas.html">O nás</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Aktuality</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero sekce -->
+<section class="hero" style="background-image: url('skola.jpg');">
+  <div class="container text-center text-white py-5">
+    <h1 class="display-4">Střední škola Baltaci</h1>
+    <p class="lead my-4">Moderní škola s pozitivním klimatem • Praxe u špičkových firem • IT, Lyceum, Gastronomie na vysoké úrovni • Individuální přístup a skvělé vybavení</p>
+    <div class="d-flex justify-content-center flex-wrap gap-3 mt-4">
+      <a href="Lyceum.html" class="btn btn-light btn-lg">Lyceum 2.0</a>
+      <a href="IT.html" class="btn btn-light btn-lg">Informační technologie</a>
+      <a href="Kuchar.html" class="btn btn-warning btn-lg">Kuchař – číšník</a>
+    </div>
+  </div>
+</section>
+
+<!-- Proč si vybrat Baltaci? -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title text-center">Proč si vybrat Baltaci?</h2>
+    <div class="row g-5 mt-4">
+
+      <!-- Moderní IT vybavení -->
+      <div class="col-md-6 col-lg-4">
+        <div class="advantage-card text-center p-5">
+          <i class="fas fa-laptop-code card-icon"></i>
+          <h4 class="card-title">Moderní IT vybavení</h4>
+          <p>Nejnovější technologie, VR zóna, herní koutek a spolupráce s UTB Zlín.</p>
+          <button class="btn btn-sm btn-outline-primary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#it-more" aria-expanded="false" aria-controls="it-more">
+            Více
+          </button>
+          <div class="collapse mt-2" id="it-more">
+            <p>Na našem IT oboru se naučíš programovat v Pythonu a JavaScriptu, zvládneš tvorbu webových aplikací a mobilních řešení, porozumíš databázím a cloudovým službám. Součástí výuky jsou i základy umělé inteligence a VR/AR technologie. Studenti se učí pracovat v týmu, řešit reálné projekty a připravujeme je na spolupráci s předními IT firmami.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Profi gastro zázemí -->
+      <div class="col-md-6 col-lg-4">
+        <div class="advantage-card text-center p-5">
+          <i class="fas fa-utensils card-icon"></i>
+          <h4 class="card-title">Profi gastro zázemí</h4>
+          <p>Open space kuchyně, bar, pódium a kurzy barista/flair/someliér zdarma.</p>
+          <button class="btn btn-sm btn-outline-primary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#gastro-more" aria-expanded="false" aria-controls="gastro-more">
+            Více
+          </button>
+          <div class="collapse mt-2" id="gastro-more">
+            <p>Obor Kuchař – číšník poskytuje praktické zkušenosti v moderní open space kuchyni a baru. Studenti se učí českou i světovou kuchyni, techniky servisu, baristiku, mixologii a flair. Kromě teorie je kladen důraz na praxi – stáže v renomovaných restauracích, hotelech a cateringových firmách. Součástí je i vedení projektů, tvorba menu a organizace gastronomických akcí.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Jazyky a maturity -->
+      <div class="col-md-6 col-lg-4">
+        <div class="advantage-card text-center p-5">
+          <i class="fas fa-graduation-cap card-icon"></i>
+          <h4 class="card-title">Jazyky a maturity</h4>
+          <p>AJ/NJ/ŠJ až na C1 úrovni + zkoušky zdarma, příprava na VŠ i praxi.</p>
+          <button class="btn btn-sm btn-outline-primary mt-2" type="button" data-bs-toggle="collapse" data-bs-target="#languages-more" aria-expanded="false" aria-controls="languages-more">
+            Více
+          </button>
+          <div class="collapse mt-2" id="languages-more">
+            <p>Na Lyceu 2.0 se studenti připravují na mezinárodní jazykové zkoušky (B2/C1) zdarma, zdokonalují komunikaci v AJ, NJ a ŠJ a získávají široké všeobecné vzdělání. Výuka zahrnuje matematiku, přírodní a společenské vědy, informatiku a projekty podporující kritické myšlení. Připravujeme studenty nejen na maturitu, ale i na vysokou školu či manažerské pozice, s důrazem na semináře, projekty a stáže.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer style="background:#001f3f; color:white;">
+  <div class="container">
+    <div class="row text-center text-lg-start py-5">
+      <div class="col-lg-4 mb-4">
+        <h5>Střední škola Baltaci</h5>
+        <p>Dřevnická 1788<br>760 01 Zlín</p>
+        <p><i class="fas fa-phone me-2"></i>602 771 200</p>
+        <p><i class="fas fa-envelope me-2"></i>skola@skolabaltaci.cz</p>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <h5>Rychlé odkazy</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white">Domů</a></li>
+          <li><a href="o-nas.html" class="text-white">O nás</a></li>
+          <li><a href="Lyceum.html" class="text-white">Lyceum 2.0</a></li>
+          <li><a href="IT.html" class="text-white">Informační technologie</a></li>
+          <li><a href="Kuchar.html" class="text-white">Kuchař – číšník</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <h5>Sledujte nás</h5>
+        <a href="#" class="text-white me-3 fs-4"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="text-white me-3 fs-4"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="text-white fs-4"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+    <hr style="border-color: rgba(255,255,255,0.2);">
+    <p class="text-center mb-0 small">© 2026 Střední škola Baltaci s.r.o. | Všechna práva vyhrazena</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
